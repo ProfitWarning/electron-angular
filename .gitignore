@@ -1,0 +1,11 @@
+bower_components
+node_modules
+coverage
+*.log
+.DS_Store
+Thumbs.db
+
+/app/spec.js
+/build/
+/releases/
+/tmp/
