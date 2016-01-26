@@ -54,7 +54,7 @@ and
   0. You just DO WHAT THE FUCK YOU WANT TO.
 
 
-Copyright © 2015 Christian Fastner <christian.fastner@arcor.de>
+Copyright © 2015 Christian Fastner
 
 This work is free. This program is free software. 
 It comes without any warranty, to the extent permitted by applicable law. 
