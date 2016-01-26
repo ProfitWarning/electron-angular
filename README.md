@@ -30,6 +30,7 @@ and
 #Known issues
 * `npm start` does not work on first time (second time works)
 * sometimes 'dist' folder is not created and causes errors
+* tests don't work right now
 
 
 
