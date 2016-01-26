@@ -26,9 +26,7 @@ var paths = {
         './**/*.+(jpg|png|svg)'		
     ],
 	copyFromDist: [
-        './node_modules/**',
-        './electron/**',
-		'background.js'
+        './node_modules/**'
     ]
 }
 
@@ -169,7 +167,7 @@ gulp.task('watch', function () {
 gulp.task('build', ['bundle', 'copy', 'finalize']);
 
 
-gulp.task('build:dist', ['bundle', 'build_angular', 'copy:dist', 'finalize']);
+gulp.task('build:dist', ['bundle', 'build_angular', 'copy:dist', 'copyfordist', 'finalize']);
 
 
 

@@ -6,5 +6,8 @@
   "version": "0.1.0",
   "author": "Mr Gumby",
   "copyright": "© 2016, your company here",
-  "main": "background.js"
+  "main": "background.js",
+  "dependencies": {
+    "fs-jetpack": "^0.7.0"
+  }
 }
