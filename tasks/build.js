@@ -167,7 +167,7 @@ gulp.task('watch', function () {
 gulp.task('build', ['bundle', 'copy', 'finalize']);
 
 
-gulp.task('build:dist', ['bundle', 'build_angular', 'copy:dist', 'copyfordist', 'finalize']);
+gulp.task('build:dist', ['bundle', 'build:angular', 'copy:dist', 'copyfordist', 'finalize']);
 
 
 
